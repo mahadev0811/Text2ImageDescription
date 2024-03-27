@@ -1,1 +1,24 @@
 # Text2ImageDescription
+This is a project that aims to generate image descriptions from text. The project has 2 main parts:
+1. Image Retrieval: Given a text query, retrieve images from a dataset that are relevant to the query.
+2. Image Description Generation: Given a text query, generate a description for the image that is most relevant to the query.
+
+## Image Retrieval
+The image retrieval part of the project uses a pre-trained openai CLIP model(https://github.com/openai/clip) to retrieve images from a dataset that are relevant to a given text query. The dataset used for this project is the [Pascal VOC 2012 dataset](https://huggingface.co/datasets/nateraw/pascal-voc-2012). The dataset contains around 3500 images (train + validation). The CLIP model is used to encode the text query and the images in the dataset. The similarity between the text query and the images is calculated using cosine similarity. The images are then ranked based on the similarity score and the top k images are returned.
+
+## Image Description Generation
+The image description generation part of the project uses a pre-trained Mistral-7b (https://huggingface.co/TheBloke/Mistral-7B-Instruct-v0.1-GGUF) model to generate descriptions for the give input query. 
+
+## Usage
+To run the project, follow the steps below:
+1. Clone the repository
+2. Run the notebook `code.ipynb`
+
+## Results
+Check out the demo video to see Text2ImageDescription in action:
+
+[Watch Demo Video](demo_video.mp4)
+
+## License
+This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
+
