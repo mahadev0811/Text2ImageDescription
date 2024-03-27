@@ -17,7 +17,7 @@ To run the project, follow the steps below:
 ## Results
 Check out the demo video to see Text2ImageDescription in action:
 
-[Watch Demo Video](demo.mp4)
+https://github.com/mahadev0811/Text2ImageDescription/assets/124283478/cd2a16a5-4e52-49f0-bfec-192ef7e73fd5
 
 ## License
 This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
