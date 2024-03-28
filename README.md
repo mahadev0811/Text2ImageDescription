@@ -1,5 +1,5 @@
 # Text2ImageDescription
-This is a project that aims to generate image descriptions from text. The project has 2 main parts:
+The project has 2 main parts:
 1. Image Retrieval: Given a text query, retrieve images from a dataset that are relevant to the query.
 2. Image Description Generation: Given a text query, generate a description for the image that is most relevant to the query.
 
