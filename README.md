@@ -14,7 +14,7 @@ To run the project, follow the steps below:
 1. Clone the repository
 2. Run the notebook `code.ipynb`
 
-## Performane
+## Performance
 - Resource: 12 GB GPU (nvidia T4)
 - Image search: ~ 50 milliseconds.
 - Description generation: Streaming starts within approximately 2.5 seconds, achieving a rate of 40 tokens per second.
